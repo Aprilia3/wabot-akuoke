@@ -764,6 +764,7 @@ _${prefix}sc_
 *•GROUP MENU*
 
 _${prefix}welcome_
+_${prefix}nsfw_
 _${prefix}antilink_
 _${prefix}promote_
 _${prefix}demote_
@@ -1899,11 +1900,11 @@ case 'welcome':
 						if (isWelkom) return reply('Udah aktif um')
 						welkom.push(from)
 						fs.writeFileSync('./src/nsfw.json', JSON.stringify(welkom))
-						reply('Sukses mengaktifkan fitur welcome di group ini ✔️')
+						reply('Sukses mengaktifkan fitur nsfw di group ini ✔️')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./src/nsfw.json', JSON.stringify(welkom))
-						reply('Sukses menonaktifkan fitur welcome di group ini ✔️')
+						reply('Sukses menonaktifkan fitur nsfw di group ini ✔️')
 					} else {
 						sendButMessage(from, `MODE NSFW`, `Silahkan pilih salah satu`, [
             {
