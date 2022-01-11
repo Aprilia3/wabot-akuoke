@@ -16,6 +16,9 @@
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-NO-blue.svg"</a>
 </p>
 
+## ADD DI HEROKU
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+
 ## Clone this project
 
 ```bash
