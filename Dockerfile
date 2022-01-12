@@ -8,7 +8,7 @@ RUN apt-get update && \
   wget \
   imagemagick \
   graphicsmagick \
-  webp \
+  libwebp \
   mc && \
   rm -rf /var/lib/apt/lists/*
 
