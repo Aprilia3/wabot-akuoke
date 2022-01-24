@@ -67,8 +67,8 @@ namabot = setting.namabot
 namaowner = setting.ownerName
 fake = setting.fake
 let hit_today = []; //JAN UBAH
-const thumb = fs.readFileSync("./media/fake.jpg");
-const thumb2 = fs.readFileSync("./media/logo.jpg");
+const thumb = fs.readFileSync("./media/tot.jpg");
+const thumb2 = fs.readFileSync("./media/tot.jpg");
 blocked = []
 
 function kyun(seconds){
@@ -1120,7 +1120,7 @@ break
 case 'iklan':
 case 'sewabot':
              if (isBanned) return reply(mess.bannad)
-             var wew = fs.readFileSync(`./media/qr.jpg`)
+             var wew = fs.readFileSync(`./media/tot.jpg`)
 				var tres = `
 ╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 │ *「 INFO BOT 」*
@@ -1148,7 +1148,7 @@ reply (ngontol)
 break
 case 'donasi':
 case 'donate':
-var wew = fs.readFileSync(`./media/qr.jpg`)
+var wew = fs.readFileSync(`./media/tot.jpg`)
 var tres = `
 *HAI KAK MAU BENERAN DONASI ATAU TIDAK KAK*
 *SEMOGA TIDAK DILIHAT DOANG*
